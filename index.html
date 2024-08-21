@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bean Boutique Coffee Shop </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='FEWDassignment.css'>
+    <script src='caf.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body onload="openpopup()">
+    <header>
+        <nav>
+            <div class="container">
+                <h1> Bean Boutique Coffee Shop </h1>
+                <br>
+            
+                <ul>
+                    <li><a href="home.html"> Home Page </a> </li>
+                    <li><a href="coffeeselection.html"> Coffee Selection </a> </li>
+                    <li><a href="brewing.html"> Brewing Equipment </a> </li>
+                    <li><a href="event.html"> Events and Workshop </a> </li>
+                    <li><a href="shoppingcart.html"> Shopping Cart </a> </li>
+                    <li><a href="special.html"> Special Offer and Subscription </a> </li>
+                    
+                </ul>
+            </div>
+        </nav>
+         
+        
+    </header>
+    <br>
+    
+    <section>
+
+        <div>
+            <h2> Warmly Welcome </h2>
+            <p id="open"> <strong>OPEN DAILY- 7AM-5PM</strong> </p>
+        </div>
+
+        <form id="search-form">
+            <input type="text" id="search-bar" placeholder="Search equipment...">
+            <button type="submit" id="search-button">Search</button>
+        </form>
+    
+        
+        <div class="photo-container">
+            <div class="card">
+                <img src="image/coffee1.jpg">
+                <div class="content">
+                    <h3> Bean Boutique Coffee Shop</h3>
+                    <p> What’s the first thing that we consider upon waking up in a new city?
+                         Where’s the biggest and best cultural experience around here?
+                         It’s neither of those two things. No matter where we are,
+                          the only question that really matters is,
+                           where do we get a decent coffee around here?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="coffee2.jpg">
+                <div class="content">
+                    <h3>Bean Boutique Coffee Shop</h3>
+                    <p> What’s the first thing that we consider upon waking up in a new city?
+                        Where’s the biggest and best cultural experience around here?
+                        It’s neither of those two things. No matter where we are,
+                         the only question that really matters is,
+                          where do we get a decent coffee around here?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="coffee5.jpg">
+                <div class="content">
+                    <h3> Bean Boutique Coffee Shop</h3>
+                    <p>What’s the first thing that we consider upon waking up in a new city?
+                        Where’s the biggest and best cultural experience around here?
+                        It’s neither of those two things. No matter where we are,
+                         the only question that really matters is,
+                          where do we get a decent coffee around here?</p>
+                </div>
+            </div>
+
+        </div>
+
+       <div class="form">
+        <div id="welcome-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+               
+                <p>Sign up with your email to get a 20% discount on your first purchase.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+       
+    
+    </section>
+
+<br>
+<section class="coffeeCatalogueHeading">
+    <h1>Our Shop Location</h1>
+    <p>Find us in the heart of the city, where the aroma of freshly roasted coffee.</p>
+    <div class="locationcontainer">
+        <div class="map">
+            <div id="map"></div>
+        </div>
+    </div>
+    <hr>
+</section>
+    <footer>
+    <div class="social">
+        
+        <div class="social">
+            <p>Follow for update </p>
+        <ul>
+            
+            <li><a> <img src="social-media.png" alt="social media"></a></li>
+            
+            <li><a><img src="instagram.png" alt="instergran"></a></li> 
+            
+            <li><a> <img src="youtube(1).png" alt="youtube"></a></li>
+            
+        </ul>
+   </div>
+   <div class="copy">
+
+    <p> www.beanboutiquecoffeeshop.com</p>
+    <p> Copyright@2024 </p>
+
+    
+    
+   </div>
+  
+   <p class="fp">Thanks for Your Support </p>
+    </footer>
+    <script>
+        function openpopup(){
+            alert( "Helllo ");
+        }
+    </script>
+    
+</body>
+</html> 
